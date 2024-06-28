@@ -30,7 +30,7 @@ namespace bank_management
             Bank.Add(new creat_acount_details_list { Name = name ,ID=id,MOBILE_NUM=mbnum,ADRESS=adress});
             foreach (var i in Bank) 
             {
-            Console.WriteLine($"{i.Name}\n {i.ADRESS}");
+            Console.WriteLine($"{i.Name}\n{i.ADRESS}");
             
             }
         }
